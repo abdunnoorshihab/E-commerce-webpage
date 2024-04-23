@@ -1,0 +1,32 @@
+.sub-container{
+    padding: 70px 100px 100px;
+}
+.card1
+{
+    display: flex;
+    justify-content: center;
+    width: 1,326px;
+    height:641px;
+    top: 88px;
+    left: 57.5px;
+    gap: 30px;
+    opacity: 0px;
+
+}
+@media (max-width: 599px) {
+    .sub-container{
+        gap: 5px;
+        h2{
+            font-size:small;
+        }
+        p{
+            font-size: x-small;
+        }
+    }
+
+    .card1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
