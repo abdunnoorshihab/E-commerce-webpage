@@ -5,6 +5,7 @@ import { HomeComponent } from './home.component';
 import { BannerComponent } from './banner/banner.component';
 import { CardComponent } from './card/card.component';
 import { ButtonComponent } from './button/button.component';
+import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { ButtonComponent } from './button/button.component';
     BannerComponent,
     CardComponent,
     ButtonComponent,
+    NewArrivalsComponent,
   ],
   imports: [
     CommonModule,
