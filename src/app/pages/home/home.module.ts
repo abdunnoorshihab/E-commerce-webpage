@@ -6,6 +6,8 @@ import { BannerComponent } from './banner/banner.component';
 import { CardComponent } from './card/card.component';
 import { ButtonComponent } from './button/button.component';
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
+import { LocationComponent } from './location/location.component';
+import { ImagesComponent } from './images/images.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
     CardComponent,
     ButtonComponent,
     NewArrivalsComponent,
+    LocationComponent,
+    ImagesComponent,
   ],
   imports: [
     CommonModule,
