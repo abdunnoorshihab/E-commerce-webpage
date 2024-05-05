@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: baseline;
+    object-fit: cover;
     padding: 60px 10px 60px 16px;
     gap: 20px;
     opacity: 0px;
@@ -34,6 +35,19 @@
     // border-radius: none;
     box-shadow: 1px 1px 1px 1px gray;
     padding: 16px;
+    // object-fit: cover;
+    width: 100%;
+     height: 100%;
+    object-fit: cover;
+    border: 2px skyblue;
+    transition: all .50s;
+}
+.card img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border: 2px skyblue;
+    transition: all .50s;
 }
 .price{
     padding-top: 40px;

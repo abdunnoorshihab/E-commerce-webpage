@@ -5,12 +5,15 @@
 {
     display: flex;
     justify-content: center;
-    width: 1,326px;
-    height:641px;
-    top: 88px;
-    left: 57.5px;
+    height: 60%;
+    object-fit: cover;
+    border: 2px skyblue;
+    transition: all .50s;
     gap: 30px;
-    opacity: 0px;
+
+    img{
+        max-width: 100%;
+    }
 
 }
 @media (max-width: 599px) {
