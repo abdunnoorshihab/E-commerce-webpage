@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FOOTER_DB } from 'src/app/core/db/footer.db';
 
 @Component({
   selector: 'app-images',
@@ -6,13 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./images.component.scss']
 })
 export class ImagesComponent {
-
-  items: any= [
-    {img:'./assets/images/brand/png/footerItem1.png'},
-    {img:'./assets/images/brand/png/footerItem2.png'},
-    {img:'./assets/images/brand/png/footerItem3.png'},
-    {img:'./assets/images/brand/png/footerItem4.png'},
-    {img:'./assets/images/brand/png/footerItem5.png'},
-    {img:'./assets/images/brand/png/footerItem6.png'},
-  ];
+  items: any[]= FOOTER_DB;
 }
