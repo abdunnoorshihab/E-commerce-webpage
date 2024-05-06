@@ -9,6 +9,7 @@ import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
 import { LocationComponent } from './location/location.component';
 import { ImagesComponent } from './images/images.component';
 import { FooterComponent } from './footer/footer.component';
+import { NextButtonComponent } from './next-button/next-button.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
     LocationComponent,
     ImagesComponent,
     FooterComponent,
+    NextButtonComponent,
   ],
   imports: [
     CommonModule,

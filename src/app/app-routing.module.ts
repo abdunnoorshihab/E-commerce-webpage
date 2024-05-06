@@ -15,6 +15,10 @@ const routes: Routes = [
        {
         path:"home",
         loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule)
+       },
+       {
+        path:"next",
+        loadChildren: () => import('./pages/get-in-touch/get-in-touch.module').then(m => m.GetInTouchModule)
        }
     ]
   }
