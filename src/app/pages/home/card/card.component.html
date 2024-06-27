@@ -1,0 +1,64 @@
+<div class="container">
+<div class="collection-section">
+    <div class="section-title">
+        <h1 style="text-align: center;font-weight: 1200;font-size: 35px ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Top Picks for you </h1>
+        <div class="description">
+            <h3 style="text-align: center;">Find a bright ideal to suit your taste with out great selection of suspension, floor and table lights.</h3>
+
+        </div>
+        
+
+    </div>
+    <div class="product-cards">
+        <div *ngFor="let i of items" class="card">
+           
+            <img [src]="i?.img">
+            <h3 style="font-weight: 800;font-size: 20px;line-height: 30px;padding-top: 15px;">{{i.name}}</h3>
+            <div class="bottom">
+                
+                <div class="price">
+                    <div class="new-price">
+                        <p>Price: {{i.Newprice}}</p>
+
+                    </div>
+                    
+                    <div class="old-price">
+                        <p>{{i.Oldprice}}</p>
+
+                    </div>
+                
+                </div>
+                
+                
+                
+            
+            
+            
+        </div>
+        <!-- <div class="img">
+            <img [src]="i?.store">
+        </div> -->
+        <div class="rating">
+            <div class="stars">
+                <div *ngFor="let item of [1, 2, 3, 4, 5]">
+                    <img [src]="i?.Item">
+                </div>
+            </div>
+            <!-- <div *ngFor="let item of [1, 2, 3, 4, 5]">
+                <img [src]="i?.Item">
+            </div> -->
+            <div class="img">
+                <img [src]="i?.store">
+            </div>
+
+        </div>
+        
+        
+        
+    </div>
+    
+   
+
+</div>
+</div>
+<!-- This is a comment -->

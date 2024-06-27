@@ -1,0 +1,106 @@
+.location{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    width: Fixed (1,437px)px;
+    height: Hug (426px)px;
+    padding: 100px;
+    top: 2812px;
+    left: 2px;
+    // padding: 100px 159px 100px 159px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.location1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.frame1{
+    width: Fill (279.75px)px;
+    height: Fill (226px)px;
+    padding: 60px 40px 60px 40px;
+    gap: 32px solid;
+    border: 0px 1px 0px 0px;
+    opacity: 0px;
+    border-right: 1px solid gray;
+
+    // border-image-source: linear-gradient(180deg, rgba(186, 186, 186, 0) 0%, rgba(186, 186, 186, 0.6) 50%, rgba(186, 186, 186, 0) 100%);
+
+
+
+}
+.frame2{
+    width: Fill (279.75px)px;
+    height: Fill (226px)px;
+    padding: 60px 40px 60px 40px;
+    gap: 32px;
+    border: 0px 1px 0px 0px;
+    opacity: 0px;
+    border-right: 1px solid gray;
+}
+.frame3{
+    width: Fill (279.75px)px;
+    height: Fill (226px)px;
+    padding: 60px 40px 60px 40px;
+    gap: 32px;
+    border: 0px 1px 0px 0px ;
+    opacity: 0px;
+    border-right: 1px solid gray;
+}
+.frame4{
+    width: Fill (279.75px)px;
+    height: Fill (226px)px;
+    padding: 60px 40px 60px 40px;
+    gap: 32px;
+    // border: 0px 1px 0px 0px;
+    opacity: 0px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    h1{
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 58px;
+        text-align: left;
+        // padding-bottom: 15px;
+    }
+
+
+.text-2{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.location2{
+    display: flex;
+}
+@media (max-width: 599px) {
+    .location1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        // margin: 0 auto;
+        gap: 2px;
+        h2{
+            font-size:small;
+        }
+        p{
+            font-size: x-small;
+        }
+    }
+
+    .location2 {
+        // align-items: center;
+        // justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        // margin: 0 auto;
+    }
+
+}
